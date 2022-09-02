@@ -4,61 +4,274 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tecnologias web</title>
-    <link rel="styleheet" type="text7css" media="screen" href="disenio.css"> 
-    <style> </style>
+    <title>Mi MANUAL</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="disenio.css"> 
+    <script>
+        src = "jquery-3.6.1.js"
+    </script>
+    <script>
+        src= "https://code.jquery.com/jquery-3.6.1.min.js"
+    </script>
+    <style>
+        .resaltartabla{
+            background-color: azure;
+            color: black;
+        }
+    </style>
 </head>
-<body style="background-color: #e4fff9;">
-    <h1  ALIGN="CENTER">
-        Mi MANUAL 
-    </h1>
-    <table>
-        <tr> 
-            <th ALIGN="CENTER">Elemento </th>
-            <th ALING = "center">Descripcion</th>
-            <th ALING = "center">Documentacion</th>     
-        </tr>
-        <thead>
-                
-        </thead>
-        <tbody ALIGN="CENTER">
-            <td>html</td>
-            <td>Representa la raiz del elemento</td>
-            <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html" target="blank"> Documentacion </a> </Td>
-        </tbody>
-        <tbody ALIGN="CENTER">
-            <td>header</td>
-                
-            <td>Describe contenido destinado a la parte superior o encabezado de la pagina</td>
-            
-            <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head" target="blank"> Documentacion </a> </Td>
 
+<body >
+    <header ALIGN="CENTER" > 
+        <h1> <p> <img src="https://www.elplural.com/uploads/s1/11/71/87/6/meme-que-representa-al-virgin-y-al-chad_6_585x329.jpeg" width="200px" ALING="absmiddle"> 
+            GUIA de html avanzada =) <img src="https://i.ytimg.com/vi/scsuGSR-u5o/maxresdefault.jpg"  width="200px" ALING="absmiddle"> </p>  </h1>
+    </header>
+    <hr>
+    <main>
+        <article> 
+            <img src="https://s2.coinmarketcap.com/static/img/coins/200x200/9934.png" height= "100px" width="100px" ALING="center">
+        <p> Vuelvete un <strong>BASADO</strong> en el html5 </p> 
+          
+        <section>
+        <table class="ElementosSemanticos">
+
+        <thead>
+            <tr> 
+                <th>Elementos-Semanticos</th>
+                <th>Descripcion</th>
+                <th>Documentacion</th>     
+            </tr>   
+        </thead>
+        <tbody>
+            <tr>
+                <td> &lthtml&gt</td>
+                <td>Representa la raiz del elemento</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>  
+                <td>&ltheader&gt</td>                
+                <td>Describe contenido destinado a la parte superior o encabezado de la pagina</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltmeta&gt</td>
+                <td>Meta nos dice la informacion del documento HTML por medio de atributos </td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltlink&gt</td>
+                <td>Link nos especifica las relaciones entre el documento actual y un recurso ajeno a la pagina. </td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltbody&gt</td>
+                <td>Body representa el contenido del documento HTML. </td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltdiv&gt</td>
+                <td>Div es un contenedor generico para elementos de categoria flow, se le puede modificar su estilo con css </td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr >
+                <td>&ltarticle&gt</td>
+                <td>Encierra contenido independiente del resto de la pagina web</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr >
+                <td>&ltsection&gt</td>
+                <td>Es usado para dividir el contenido dentro de un elemento article</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltnav&gt</td>
+                <td>Ayuda a proporcionar enlaces de navegacion</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav" target="blank"> Documentacion </a> </Td>   
+            <tr>
+                <td>&ltaside&gt</td>
+                <td>Se usa principalmente para mostrar otro tipo de contenido no relacionado, usado para ver la publicidad, se coloca gereralmente en los laterales</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltfooter&gt</td>
+                <td>Es un pie de pagina para su ancestro sectioning mas cercano(article, aside, nav, section) o para body si no hay ancestro</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltmain&gt</td>
+                <td>Main es donde se muestra el contenido principal de la pagina, no deberia haber mas de un main</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltspan&gt</td>
+                <td>El elemento es un container generico que no representa inherentemente nada, usualmente usado para agrupar elementos con fines de estilo</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span" target="blank"> Documentacion </a> </Td>            
+            </tr>
+            <tr>
+                <td>&ltaudio&gt</td>
+                <td>El elemento audio como su nombre indica, es usado para introducir audio</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio" target="blank"> Documentacion </a> </Td>            
+            </tr>
+            <tr>
+                <td>&ltimg&gt</td>
+                <td>El elemento img tambien como su nombre indica, es usado para introducir imagen</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img" target="blank"> Documentacion </a> </Td>            
+            </tr>
+            <tr>
+                <td>&ltvideo&gt</td>
+                <td>El elemento video como se indica, muestra un video en la pagina web </td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video" target="blank"> Documentacion </a> </Td>            
+            </tr>
         </tbody>
-        <tbody ALIGN="CENTER">
-            <td>article</td>
-                
-            <td>Encierra contenido independiente del resto de la pagina web</td>
-            
-            <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article" target="blank"> Documentacion </a> </Td>
-            
+      </table>
+      <br>
+      <div >
+        <img src="https://keepcoding.io/wp-content/uploads/2022/05/Secciones-de-una-pagina-web-en-html.jpg" height= "300px" width="300px">  
+        <img src="https://desarrolloweb.com/storage/manual_images/v9KWpJmKyGROdRlde8BzFKQLumRHunXmUJfwU66X.jpg" width="300px" ALING="left">
+      </div>
+        
+       
+    </section>
+      <br> 
+      <hr>
+      <div aling="center">
+        
+      <p ALING="center">Como usar el elemento audio y img</p> 
+                <audio controls>
+                    <source src = "oye gelda escúchate eto.mp3" type="audio/mp3">
+                </audio>
+                <img src="https://acegif.com/wp-content/uploads/2022/fzk5d/26-cool-purple-car-dancing.gif" height= "100px"> 
+            </div>
+        <br>
+      <br>
+      <hr>
+
+    <section>
+    <table class="ManejoTXT">
+        <thead>
+            <tr> 
+                <th>&ltManejo_del_texto&gt</th>
+                <th>Descripcion</th>
+                <th>Documentacion</th>     
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>&lth1 a h6&gt</td>
+                <td>Los h1-h6s definen un tipo de encabezado donde h1 es el mas grande y h6 el mas pequenio, usado en el header</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltp&gt</td>
+                <td>Se utiliza para poner parrafos definidos por p</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltbr&gt</td>
+                <td>El br hace que el navegador avance a la siguiente línea antes de mostrar el siguiente elemento o porción de texto en una página web</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&lthr&gt</td>
+                <td>Hr se usa para representar una transicion de parrafos a un tema separado, se llega a poner una linea horizontal en el navegador</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltsup&gt</td>
+                <td>Sup se usa para permitir superindices como r<sup>2</sup> por ejemplo</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltsub&gt</td>
+                <td>Sub se usa para permitir subindices como log<sub>2</sub>e por ejemplo</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltstrong&gt</td>
+                <td>Strong es una forma de <strong>negrilla</strong> para los textos </td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltem&gt</td>
+                <td>Em es cursiva, esto es usado para dar <em>enfasis</em> a lo que se habla</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltmark&gt</td>
+                <td>El elemento <mark>mark</mark> permite resaltar texto de interes</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltq&gt</td>
+                <td>El elemento q indica que el texto encerrado es una cita corta en línea</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltblockquote&gt</td>
+                <td>Similar al q, solo que es para una cita extensa</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltcite&gt</td>
+                <td>Cite permite incluir el nombre de un trabajo (Un libro, un ensayo, un poema, una película, una pintura, un programa de computadora, etc.) </td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltdfn&gt</td>
+                <td>Dfn se utiliza para identificar el término a definir, mientras que la definición del término se coloca fuera del elemento. </td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltabbr&gt</td>
+                <td>Abbr sirve para para identificar una abreviatura</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltsmall&gt</td>
+                <td>Small permite definir la letra <small>chica</small> y los comentarios secundarios de una pagina </td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&lts&gt</td>
+                <td>S permite <s>tachar</s> letra, util para decir cosas que se han actualizado y que el anterior dato esta mal</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltcode&gt</td>
+                <td>Code sirve para mostrar codigo con su propio formato</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltsamp&gt</td>
+                <td>Samp se utiliza para encerrar texto que representa la salida de un programa de computadora</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltkbd&gt</td>
+                <td>Kbd se utiliza para representar una imagen parecida a la entrada de texto de un teclado</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltpre&gt</td>
+                <td>Pre se utiliza para contiene texto que debe presentarse exactamente como está escrito en el archivo HTML</td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre" target="blank"> Documentacion </a> </Td>
+            </tr>
+            <tr>
+                <td>&ltaddress&gt</td>
+                <td>El elemento address es usado para representar la informacion de contacto <address> <a href="mailto:jim@rock.com">jim@rock.com</a><br></address></td>
+                <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address" target="blank"> Documentacion </a> </Td>
+            </tr>
         </tbody>
-        <tbody ALIGN="CENTER">
-            <td>body</td>
-                
-            <td>Representa el contenido de un documento html</td>
-            
-            <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body" target="blank"> Documentacion </a> </Td>
-            
-        </tbody>
-        <tbody ALIGN="CENTER">
-            <td>span</td>
-                
-            <td>El elemento es un container generico que no representa inherentemente nada</td>
-            
-            <Td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body" target="blank"> Documentacion </a> </Td>
-            
-        </tbody>
-    </table>
-    <p ALING="right"> Jose Carlos Lopez Soria </p>
+       </table>
+
+       <hr>
+       <div>
+          <p>Llegaste hasta el final, muy bien</p>
+          <img src="https://lh4.googleusercontent.com/dXWDuSpzpuENyHFEmJcdaaRArhCbkZVPuGkUBptiiG1QDP9soRN_acaHSitlTZrohy-6suPrR2OB6zmwAwfiHHO3wPYfqKss9OFfcQ_ecY4l26NozOZg4o1CbWpdJ4OivUJt5MjE"> 
+       </div>
+      </section>
+
+    <p> Hecho por: <strong style="font:italic"> Jose Carlos Lopez Soria </strong>  </p>
+    </article>
+    </main>
 </body>
 </html>
