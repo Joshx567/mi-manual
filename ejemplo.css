@@ -1,0 +1,31 @@
+input:disabled{
+    background-color: green;
+}
+button:hover{
+    color: white;
+    background-color: blue;
+    padding: 0px;
+}
+
+tbody tr:nth-child(odd):hover{
+    background-color: green;
+    color: white;
+    }
+
+tbody{
+    background-color: red;
+    color:white;
+}
+p::first-line{
+    color:red;
+}
+p, div{
+    color:blue
+}
+
+.abuelo .hijo{
+    background-color: yellow;
+}
+.primero>p{
+    background-color: orange;
+}

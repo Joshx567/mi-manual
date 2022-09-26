@@ -1,0 +1,9 @@
+.caja{
+    width: 500px;
+    height: 500px;
+    background-color: hsl(129, 108, 1)    
+}
+
+p{
+    color: black;
+}

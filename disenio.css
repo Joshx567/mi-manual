@@ -7,11 +7,16 @@ header{
     font-weight: bold;
     font-style: italic;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color:#a52eb4;
+    background-color: #BB08A3;
     align-content: center;
     text-align: center;
     vertical-align: auto;
     align-items: baseline;
+}
+
+img{
+    vertical-align: auto;
+    text-align: center;
 }
 
 hr {
@@ -45,6 +50,12 @@ td, th, tr{
     border: #020202 1px solid;
     margin-left: auto;
     margin-right: auto;
+    font-weight: bold;
+}
+
+th{
+    background-color: hsl(0, 80%, 50%);
+  
 }
 
 div{

@@ -1,0 +1,28 @@
+Joshx567
+/
+mi-manual
+
+Joshx567.github.io/mi-manual
+
+Joshx567/mi-manual
+
+FLUJO BÁSICO DE GIT
+Crear un directorio llamado miManual
+Abrir el directorio con VS Code
+inicializar un repositorio vacío 
+git init
+Crear un archivo index.html
+Ver el estado del repositorio
+git status
+Agregar archivos nuevos o modificados en su directorio de trabajo al área de preparación de Git.
+git add -A
+Ver el estado del repositorio
+git status
+Registrar los cambios en el repositorio
+git commit -m “Crear un archivo index.html”
+GITHUB
+git remote add origin https://github.com/f-beltran/mi-manual.git
+git push -u origin master
+
+DEPLOY
+https://pages.github.com/

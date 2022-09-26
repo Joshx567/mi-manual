@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi MANUAL</title>
     <link rel="stylesheet" type="text/css" media="screen" href="disenio.css"> 
+    <link rel="stylesheet" type="text/css" media="screen" href="colores.css"> 
     <script>
         src = "jquery-3.6.1.js"
     </script>
@@ -125,8 +126,8 @@
       </table>
       <br>
       <div >
-        <img src="https://keepcoding.io/wp-content/uploads/2022/05/Secciones-de-una-pagina-web-en-html.jpg" height= "300px" width="300px">  
         <img src="https://desarrolloweb.com/storage/manual_images/v9KWpJmKyGROdRlde8BzFKQLumRHunXmUJfwU66X.jpg" width="300px" ALING="left">
+        <img src="https://recursivos.com/images/html/estructura-HTML5.png" width="300px" ALING="left">
       </div>
         
        
@@ -134,7 +135,7 @@
       <br> 
       <hr>
       <div aling="center">
-        
+       
       <p ALING="center">Como usar el elemento audio y img</p> 
                 <audio controls>
                     <source src = "oye gelda escúchate eto.mp3" type="audio/mp3">
@@ -149,7 +150,7 @@
     <table class="ManejoTXT">
         <thead>
             <tr> 
-                <th>&ltManejo_del_texto&gt</th>
+                <th>Manejo_del_texto</th>
                 <th>Descripcion</th>
                 <th>Documentacion</th>     
             </tr>
@@ -262,13 +263,227 @@
             </tr>
         </tbody>
        </table>
+       </section>
+
+       <div>
+        <img src="https://cdn.slidesharecdn.com/ss_thumbnails/002htmltexto-120425070343-phpapp01-thumbnail-4.jpg?cb=1659433253" width="350px" ALING="left">
+       </div>
 
        <hr>
+
+       <section>
+        <table class="Colores">
+            <thead>
+                <tr> 
+                    <th>Colores</th>
+                    <th>Descripcion</th>
+                    <th>Documentacion</th>     
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>rgb</td>
+                    <td>Usado en css y html, tiene 3 valores donde el 1ro es rojo, el 2do es verde y el 3 es azul</td>
+                    <Td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/rgb" target="blank"> Documentacion </a> </Td>
+                </tr>
+                <tr>    
+                    <td>rgba</td>
+                    <td>Parecido a rgb, solo que tiene un 4to valor para definir la transparencia</td>
+                    <Td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/rgba" target="blank"> Documentacion </a> </Td>
+                </tr>
+                <tr>
+                    <td>hexadecimal(#ffffff)</td>
+                    <td>El valor hexadecimal es un valor que define un tipo de color segun el valor que pongas</td>
+                    <Td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-color" target="blank"> Documentacion </a> </Td>
+                </tr>
+                <tr>
+                    <td>hsl</td>
+                    <td>Hsl es otro formato para dar color, este consiste de 3 valores, (matiz,saturation,lightness )</td>
+                    <Td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl" target="blank"> Documentacion </a> </Td>
+                </tr>
+                <tr>
+                    <td>hsla</td>
+                    <td>Mismos datos que el hsl solo que tiene un 4to que es opacidad, determina la transparencia del color</td>
+                    <Td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsla" target="blank"> Documentacion </a> </Td>
+                </tr>
+            </tbody>
+           </table>
+        </section>
+        
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNaPyS-bkflbndWYWxiInQXfHrS_S_SVFU2Q&usqp=CAU" width="350px" ALING="left">
+           </div>       
+        <hr>
+
+       <section>
+        <table class="Selectores">
+            <thead>
+                <tr> 
+                    <th>Selectores</th>
+                    <th>Descripcion</th>
+                    <th>Documentacion</th>     
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Universal(*{ })</td>
+                    <td>Se cambian los datos para todos los valores del html</td>
+                    <Td><a href="https://www.w3.org/TR/selectors-3/" target="blank"> Documentacion </a> </Td>
+                </tr>
+                <tr>    
+                    <td>P</td>
+                    <td>Seleccionamos para todos los parrafos &ltp&gt</td>
+                    <Td><a href="https://www.w3.org/TR/selectors-3/" target="blank"> Documentacion </a> </Td>
+                </tr>
+                <tr>
+                    <td>.foo</td>
+                    <td>Segun las clases que tengas, las puedes llamar en el espacio foo y asi modificar tu clase creada</td>
+                    <Td><a href="https://www.w3.org/TR/selectors-3/" target="blank"> Documentacion </a> </Td>
+                </tr>
+                <tr>
+                    <td>#foo</td>
+                    <td>Selecciona un elemento pero con el id</td>
+                    <Td><a href="https://www.w3.org/TR/selectors-3/" target="blank"> Documentacion </a> </Td>
+                </tr>
+                <tr>
+                    <td>a[foo]</td>
+                    <td>Permite seleccionar elementos en función de la presencia o del valor de un determinado atributo</td>
+                    <Td><a href="https://www.w3.org/TR/selectors-3/" target="blank"> Documentacion </a> </Td>
+                </tr>
+                <tr>
+                    <td>selector:pseudo-class { … }</td>
+                    <td>Son pseudo-clases que permite seleccionar elementos en base a su estado (:disabled), posicion de los elementos en el documento(:nth-child) e interacción del usuario(:hover) 
+                    </td>
+                    <Td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes" target="blank"> Documentacion </a> </Td>
+                </tr>
+                <tr>
+                    <td>selector::pseudo-elemento { … }</td>
+                    <td>Seleccionan parte de un elemento en lugar del elemento mismo. Los pseudo-elementos se añaden a los selectores y permiten añadir estilos a una parte concreta de los elementos seleccionados. Por ejemplo, el pseudo elemento ::first-line selecciona solo la primera línea del elemento especificado por el selector</td>
+                    <Td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements" target="blank"> Documentacion </a> </Td>
+                </tr>
+                <tr>
+                    <td>Union de selectores A B {}</td>
+                    <td>Seleccionamos todos los elementos seleccionados por B que son descendientes de los elementos seleccionados por A</td>
+                    <Td><a href="https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Selectors" target="blank"> Documentacion </a> </Td>
+                </tr>
+                <tr>
+                    <td>Union de selectores A>B{}</td>
+                    <td>Seleccionamos todos los elementos seleccionados por B que son hijos de los elementos seleccionados por A</td>
+                    <Td><a href="https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Selectors" target="blank"> Documentacion </a> </Td>
+                </tr>
+                <tr>
+                    <td>Union de selectores A~B{}</td>
+                    <td>Seleccionamos todos los elementos  seleccionados por B que son hermanos de los elementos seleccionados por A</td>
+                    <Td><a href="https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Selectors" target="blank"> Documentacion </a> </Td>
+                </tr>
+                <tr>
+                    <td>Union de selectores A+B{}</td>
+                    <td>Seleccionamos todos los elementos  seleccionados por B que son hermanos y que están inmediatamente despues de los elementos seleccionados por A. 
+                        Selecciona el elemento B solo si sigue inmediatamente a A. Los elementos A y B son hermanos</td>
+                    <Td><a href="https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Selectors" target="blank"> Documentacion </a> </Td>
+                </tr>
+                <tr>
+                    <td>Especificidad</td>
+                    <td>Podemos usar diferentes combinaciones de selectores para seleccionar un mismo elemento, sin embargo la esfecificidad se encaerga de decidir que valor sera aplicado, para saber mas sobre su comportamiento, la documentacion</td>
+                    <Td><a href="https://polypane.app/css-specificity-calculator/" target="blank"> Documentacion </a> </Td>
+                </tr>
+            </tbody>
+           </table>
+        </section>  
+        <div>
+            <img src="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/selector.png" width="350px" ALING="left">
+           </div>    
+        
+           <hr>
+
+        <section>
+            <table class="Longitudes">
+                <thead>
+                    <tr> 
+                        <th>Longitudes</th>
+                        <th>Descripcion</th>
+                        <th>Documentacion</th>     
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>px</td>
+                        <td>Pixel, unidad de medida en css</td>
+                        <Td><a href="http://html.conclase.net/w3c/html401-es/types.html" target="blank"> Documentacion </a> </Td>
+                    </tr>
+                    <tr>    
+                        <td>rem</td>
+                        <td>Relativo al tamaño de la letra del elemento root (El elemento html)</td>
+                        <td><a href="http://html.conclase.net/w3c/html401-es/types.html" target="blank"> Documentacion </a> </td>
+                    </tr>
+                    <tr>
+                        <td>%</td>
+                        <td>Relativo a otro valor. Si establecemos el valor de la propiedad font-size, será un porcentaje del font-size del elemento padre, si usamos un porcentaje para establecer el valor del elemento width, será un porcentaje del width del elemento padre</td>
+                        <td><a href="http://html.conclase.net/w3c/html401-es/types.html" target="blank"> Documentacion </a> </td>
+                    </tr>
+                    <tr>
+                        <td>vw</td>
+                        <td>Relativo al ancho del viewport</td>
+                        <Td><a href="http://html.conclase.net/w3c/html401-es/types.html" target="blank"> Documentacion </a> </Td>
+                    </tr>
+                    <tr>
+                        <td>vh</td>
+                        <td>Relativo al alto del viewport</td>
+                        <Td><a href="http://html.conclase.net/w3c/html401-es/types.html" target="blank"> Documentacion </a> </Td>
+                    </tr>   
+                </tbody>
+               </table>
+            </section>
+            <div>
+                <img src="https://web-dev.imgix.net/image/VbAJIREinuYvovrBzzvEyZOpw5w1/ttaikDgwEC572lrGgWlG.svg"> 
+            </div>
+        <hr>
+
+        
+       <section>
+        <table class="Colores">
+            <thead>
+                <tr> 
+                    <th>Colores</th>
+                    <th>Descripcion</th>
+                    <th>Documentacion</th>     
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>rgb</td>
+                    <td>Usado en css y html, tiene 3 valores donde el 1ro es rojo, el 2do es verde y el 3 es azul</td>
+                    <Td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/rgb" target="blank"> Documentacion </a> </Td>
+                </tr>
+                <tr>    
+                    <td>rgba</td>
+                    <td>Parecido a rgb, solo que tiene un 4to valor para definir la transparencia</td>
+                    <Td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/rgba" target="blank"> Documentacion </a> </Td>
+                </tr>
+                <tr>
+                    <td>hexadecimal(#ffffff)</td>
+                    <td>El valor hexadecimal es un valor que define un tipo de color segun el valor que pongas</td>
+                    <Td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-color" target="blank"> Documentacion </a> </Td>
+                </tr>
+                <tr>
+                    <td>hsl</td>
+                    <td>Hsl es otro formato para dar color, este consiste de 3 valores, (matiz,saturation,lightness )</td>
+                    <Td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl" target="blank"> Documentacion </a> </Td>
+                </tr>
+                <tr>
+                    <td>hsla</td>
+                    <td>Mismos datos que el hsl solo que tiene un 4to que es opacidad, determina la transparencia del color</td>
+                    <Td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsla" target="blank"> Documentacion </a> </Td>
+                </tr>
+            </tbody>
+           </table>
+        </section>
+
+        <hr>
        <div>
           <p>Llegaste hasta el final, muy bien</p>
           <img src="https://lh4.googleusercontent.com/dXWDuSpzpuENyHFEmJcdaaRArhCbkZVPuGkUBptiiG1QDP9soRN_acaHSitlTZrohy-6suPrR2OB6zmwAwfiHHO3wPYfqKss9OFfcQ_ecY4l26NozOZg4o1CbWpdJ4OivUJt5MjE"> 
        </div>
-      </section>
 
     <p> Hecho por: <strong style="font:italic"> Jose Carlos Lopez Soria </strong>  </p>
     </article>
