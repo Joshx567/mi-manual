@@ -16,10 +16,7 @@ header{
     text-align: center;
     vertical-align: auto;
     align-items: baseline;
-}
-
-header {
-	background:indianred;
+    background:indianred;
     text-align: center;
 	width: 100%;
 	height: auto;
@@ -30,7 +27,6 @@ header {
 	border-radius: 0 0 85% 85% / 30%;
 }
 
-
 header .overlay{
 	width: 100%;
 	height: 100%;
@@ -39,7 +35,6 @@ header .overlay{
 	text-shadow: 1px 1px 1px #333;
   background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
 }
-
 
 .referencias{
     color:white;
@@ -59,6 +54,27 @@ hr {
     overflow: visible;
     text-align: center;
     height: 5px;
+}
+
+h3{
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;  
+    table-layout: fixed;
+    vertical-align: middle; 
+    text-align: center;
+}
+
+h4{
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;  
+    table-layout: fixed;
+    vertical-align: middle; 
+    text-align: center;
+    font-weight: lighter;
 }
 
 table {
