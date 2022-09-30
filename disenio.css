@@ -1,22 +1,55 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header{
     margin-left: auto;
     margin-right: auto;
     vertical-align: middle;
-    color : #12241c;
+    color : white;
     font-size: 20px;
     font-weight: bold;
     font-style: italic;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #BB08A3;
+    background-color: #214001;
     align-content: center;
     text-align: center;
     vertical-align: auto;
     align-items: baseline;
 }
 
-img{
-    vertical-align: auto;
+header {
+	background:indianred;
     text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+
+
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+}
+
+
+.referencias{
+    color:white;
+}
+
+img{
+   
+    text-align: center;
+    display:block;
+    margin:auto;
 }
 
 hr {
@@ -32,31 +65,44 @@ table {
     margin-left: auto;
     margin-right: auto;
     text-align: center;  
-    border: 1px solid #e4a470;
     table-layout: fixed;
     vertical-align: middle; 
     text-align: center;
     border-spacing: 10px;
     padding: 10px;
     cursor: pointer;
-    background-color: #e4a470;
 }
 
-td, th, tr{
+h6{
+    color:white;
+    font-size: 20px;
+}
+
+tr{
     text-align: center;
-    vertical-align: middle; 
-    border-width: medium;
     font-family: 'Times New Roman', Times, serif;
-    border: #020202 1px solid;
     margin-left: auto;
     margin-right: auto;
     font-weight: bold;
 }
 
 th{
-    background-color: hsl(0, 80%, 50%);
-  
+    background-color: rgb(245, 204, 151);
 }
+
+td{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    background-color: gray;
+}
+
+table td:nth-child(even) {
+    background-color: #f7fa64;
+}
+
 
 div{
     text-align: center;
@@ -85,3 +131,15 @@ p{
  body{
     background-color: #ebe1c9;
  }
+
+ footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(64, 64, 64);
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1%;
+}
