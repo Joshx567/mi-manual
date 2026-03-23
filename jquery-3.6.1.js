@@ -11,33 +11,23 @@
  *
  * Date: 2022-08-26T17:52Z
  */
-( function( global, factory ) {
+((global, factory) => {
+    "use strict";
 
-	"use strict";
-
-	if ( typeof module === "object" && typeof module.exports === "object" ) {
-
-		// For CommonJS and CommonJS-like environments where a proper `window`
-		// is present, execute the factory and get jQuery.
-		// For environments that do not have a `window` with a `document`
-		// (such as Node.js), expose a factory as module.exports.
-		// This accentuates the need for the creation of a real `window`.
-		// e.g. var jQuery = require("jquery")(window);
-		// See ticket trac-14549 for more info.
-		module.exports = global.document ?
-			factory( global, true ) :
-			function( w ) {
-				if ( !w.document ) {
-					throw new Error( "jQuery requires a window with a document" );
-				}
-				return factory( w );
-			};
-	} else {
-		factory( global );
-	}
-
-// Pass this if window is not defined yet
-} )( typeof window !== "undefined" ? window : this, function( window, noGlobal ) {
+    if (typeof module === "object" && typeof module.exports === "object") {
+        // Entornos tipo CommonJS (Node.js)
+        module.exports = global.document ?
+            factory(global, true) :
+            (w) => {
+                if (!w.document) {
+                    throw new Error("jQuery requires a window with a document");
+                }
+                return factory(w);
+            };
+    } else {
+        // Navegador global o AMD
+        factory(global);
+    }
 
 // Edge <= 12 - 13+, Firefox <=18 - 45+, IE 10 - 11, Safari 5.1 - 9+, iOS 6 - 9.1
 // throw exceptions when non-strict code (e.g., ASP.NET 4.5) accesses strict mode
@@ -45,36 +35,36 @@
 // enough that all such attempts are guarded in a try block.
 "use strict";
 
-var arr = [];
+const arr = [];
 
-var getProto = Object.getPrototypeOf;
+const getProto = Object.getPrototypeOf;
 
-var slice = arr.slice;
+const slice = arr.slice;
 
-var flat = arr.flat ? function( array ) {
+const flat = arr.flat ? function( array ) {
 	return arr.flat.call( array );
 } : function( array ) {
 	return arr.concat.apply( [], array );
 };
 
 
-var push = arr.push;
+const push = arr.push;
 
-var indexOf = arr.indexOf;
+const indexOf = arr.indexOf;
 
-var class2type = {};
+const class2type = {};
 
-var toString = class2type.toString;
+const toString = class2type.toString;
 
-var hasOwn = class2type.hasOwnProperty;
+const hasOwn = class2type.hasOwnProperty;
 
-var fnToString = hasOwn.toString;
+const fnToString = hasOwn.toString;
 
-var ObjectFunctionString = fnToString.call( Object );
+const ObjectFunctionString = fnToString.call( Object );
 
-var support = {};
+const support = {};
 
-var isFunction = function isFunction( obj ) {
+const isFunction = function isFunction( obj ) {
 
 		// Support: Chrome <=57, Firefox <=52
 		// In some browsers, typeof returns "function" for HTML <object> elements
@@ -88,16 +78,16 @@ var isFunction = function isFunction( obj ) {
 	};
 
 
-var isWindow = function isWindow( obj ) {
+const isWindow = function isWindow( obj ) {
 		return obj != null && obj === obj.window;
 	};
 
 
-var document = window.document;
+const document = window.document;
 
 
 
-	var preservedScriptAttributes = {
+	const preservedScriptAttributes = {
 		type: true,
 		src: true,
 		nonce: true,
@@ -150,7 +140,7 @@ function toType( obj ) {
 
 
 
-var
+const
 	version = "3.6.1",
 
 	// Define a local copy of jQuery
@@ -193,7 +183,7 @@ jQuery.fn = jQuery.prototype = {
 	pushStack: function( elems ) {
 
 		// Build a new jQuery matched element set
-		var ret = jQuery.merge( this.constructor(), elems );
+		const ret = jQuery.merge( this.constructor(), elems );
 
 		// Add the old object onto the stack (as a reference)
 		ret.prevObject = this;
@@ -238,7 +228,7 @@ jQuery.fn = jQuery.prototype = {
 	},
 
 	eq: function( i ) {
-		var len = this.length,
+		const len = this.length,
 			j = +i + ( i < 0 ? len : 0 );
 		return this.pushStack( j >= 0 && j < len ? [ this[ j ] ] : [] );
 	},
